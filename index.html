@@ -1,0 +1,40 @@
+<html>
+    <title>画画</title>
+    <head>
+        <meta charset="utf-8" />
+        <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body >
+        
+        
+        <div class="clearfix1">
+            <div class="box1">
+                <div align="left">
+                    <canvas id="hb" width="1200" height="700" style="border:1px solid #a0f1ee ;"></canvas>
+                </div>                               
+            </div>
+            <div class="box2">   
+                <div align="center">
+                    <p id="mss">标准模式</p>
+                    <p id="zb">坐标</p>
+                    <button type="button" id="bt3" onclick="sj3()">点我切换模式</button>
+                    <p id="ys">颜色</p>
+                    <p id="r">R</p>
+                    <input type="text" id="R" name="none" requiredminlength="0" maxlength="3" size="10">
+                    <p id="g">G</p>
+                    <input type="text" id="G" name="none" requiredminlength="0" maxlength="3" size="10">
+                    <p id="b">B</p>
+                    <input type="text" id="B" name="none" requiredminlength="0" maxlength="3" size="10">
+                    <p id="ysxs">颜色显示</p>
+                    <canvas id="yscs" width="60" height="60" style="border:1px solid #ffffff ;"></canvas>
+                    <p id="sp"></p>
+                    <button type="button" id="bt4" onclick="sj4()">清空画板</button>
+                </div>                             
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
